@@ -10,9 +10,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
-          accentColor: Colors.deepOrange,
-          primarySwatch: Colors.indigo
-      ),
+          accentColor: Colors.deepOrange, primarySwatch: Colors.indigo),
       title: 'Hello Rectangle',
       home: Scaffold(
         appBar: AppBar(
